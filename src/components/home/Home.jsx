@@ -1,12 +1,19 @@
 import React from 'react'
-import "./App.css";
-import Header from './components/header/Header';
-import Home from './components/home/Home';
 import "./home.css";
+import Social from './Social';
+import Data from './Data';
 const Home = () => {
     return (
         <>
-        <Header/>
+        <section className="home section" id="home">
+            <div className="home__container container grid">
+                <div className="home__content grid">
+                    <Social/>
+                    <div className="home__img"></div>
+                    <Data/>
+                </div>
+            </div>
+        </section>
         </>
     )
 }

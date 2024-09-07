@@ -7,7 +7,7 @@
   /* Colours */
   --hue: 0;
   --sat: 0%;
-  --title-color: hsl(varr(--hue), var(--sat), 20%);
+  --title-color: hsl(var(--hue), var(--sat), 20%);
   --text-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
@@ -16,6 +16,7 @@
   /* Font & typography */
   --body-font: "Poppins", sans-serif;
   --big-font-size: 3.5rem;
+  --medium-font-size: 2.5rem;
   --h1-font-size: 2.25rem;
   --h2-font-size: 1.5rem;
   --h3-font-size: 1.25rem;
@@ -147,6 +148,7 @@ img{
 
 .button:hover{
   background-color: var(--title-color-dark);
+  color: var(--text-color-dark);
 }
 
 .button_icon{

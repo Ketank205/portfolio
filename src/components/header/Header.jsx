@@ -9,7 +9,7 @@ const Header = () => {
         <>
             <header className="header">
                 <nav className="nav container">
-                    <a href="" className="nav__logo">Ketankumar Borse</a>
+                    <a href="" className="nav__logo">Borse</a>
                     
                     
                     <div className={Toogle? "nav__menu show__menu" : "nav__menu"}>
@@ -29,11 +29,11 @@ const Header = () => {
                                     <i className="uil uil-file-alt nav__icon"></i>Skills
                                 </a>
                             </li>
-                            <li className="nav__item">
+                            {/* <li className="nav__item">
                                 <a href="#services" className="nav__link">
                                     <i className="uil uil-briefcase nav__icon"></i>Services
                                 </a>
-                            </li>
+                            </li> */}
                             <li className="nav__item">
                                 <a href="#porfolio" className="nav__link">
                                     <i className="uil uil-scenery nav__icon"></i>Porfolio
